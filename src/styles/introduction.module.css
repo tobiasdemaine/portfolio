@@ -1,0 +1,43 @@
+.fadeText {
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: middle;
+  opacity: 0;
+}
+
+.animationWrap {
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fadeOut {
+  opacity: 0;
+  transition: all 2s linear;
+}
+
+.fadeIn {
+  animation: fadeIn 1s;
+}
+
+.hide {
+  display: none;
+}
+
+.demaineLogo {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,32 @@
+.indexWrap {
+  background-image: url("/assets/img/background.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.indexWrapDisplay {
+  background-color: white;
+  background-image: url("/assets/img/background.png");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  top: -3000px;
+  opacity: 1;
+  animation: animateOpacity 1s;
+  display: flex;
+  flex-flow: column;
+}
+
+@keyframes animateOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

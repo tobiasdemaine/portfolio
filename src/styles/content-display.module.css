@@ -1,0 +1,264 @@
+.contentWrap {
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 34px;
+  padding-bottom: 2em;
+  animation: animateTop 1s;
+  position: relative;
+}
+
+@keyframes animateTop {
+  from {
+    top: -2000px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.contentDate {
+  font-family: var(--font-mono);
+}
+.contentName {
+  width: 100%;
+  font-size: 7em;
+  font-weight: 400;
+  font-family: var(--font-cursive);
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  background-size: cover;
+  text-shadow: 0px 0px 5px #000;
+  margin-bottom: 0em;
+}
+.contentClient {
+  width: 100%;
+  font-size: 20px;
+  font-family: var(--font-main);
+}
+.contentDescription {
+  max-width: 60%;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.3em;
+  font-weight: 100;
+  font-family: var(--font-main);
+  margin-left: auto;
+  text-align: left;
+  color: black;
+  font-weight: 100;
+}
+.contentTagsTechWrap {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.1em;
+  margin-right: auto;
+}
+.contentTagsTechWrap h3 {
+  padding-bottom: 10px;
+  color: #000;
+  text-align: center;
+  font-weight: 100;
+}
+
+.contentTags {
+  text-align: left;
+  margin-right: 10px;
+  min-width: 150px;
+}
+.contentTags div {
+  margin-bottom: 5px;
+  border-radius: 30px;
+  background-color: #2297bf;
+  border: none;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.contentTechnology {
+  text-align: left;
+  min-width: 150px;
+}
+.contentTechnology div {
+  margin-bottom: 5px;
+  border-radius: 30px;
+  background-color: #456990;
+  border: none;
+  color: white;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+.contentLinks {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contentLinksData {
+  display: inline;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #f45b69;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+  transition: all linear 20ms;
+  position: relative;
+}
+.contentLinksData:hover {
+  transform: scale(1.02);
+  transition: all linear 20ms;
+}
+
+.contentMedia {
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  justify-content: center;
+  padding-top: 7em;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(34, 152, 191, 0.269642891336222) 30%
+  );
+  color: #000;
+  animation: animateBottom 1s;
+  position: relative;
+  flex-grow: 1;
+}
+
+@keyframes animateBottom {
+  from {
+    top: 2000px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+.mediaWrap {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 2em;
+  transition: all linear 50ms;
+  position: relative;
+  cursor: pointer;
+}
+.mediaWrap:hover {
+  transform: scale(1.02);
+  transition: all linear 50ms;
+}
+.mediaNormal {
+  height: 80vh;
+  width: 90vw;
+  object-fit: contain;
+}
+.mediaYoutubeNormal {
+  width: 80vw;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+}
+.mediaSmall {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.mediaIcon {
+  position: relative;
+  top: -120px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  z-index: 5;
+  filter: drop-shadow(0px 0px 3px black);
+}
+.contentMediaDescription {
+  font-family: var(--font-main);
+  margin-top: 5px;
+  margin-top: -45px;
+  text-align: center;
+}
+.fullscreenMediaDescription {
+  font-family: var(--font-main);
+  margin-top: 5px;
+  text-align: center;
+}
+
+.fullScreenMedia {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.95);
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+@media screen and (max-width: 786px) {
+  .contentDescription {
+    margin: 0px;
+    padding-left: 20px;
+    max-width: 100%;
+  }
+  .contentTagsTechWrap {
+    margin: 0px;
+    min-width: 100%;
+    justify-content: center;
+  }
+  .contentTags {
+    min-width: 40vw;
+  }
+  .contentTechnology {
+    text-align: left;
+    min-width: 45vw;
+  }
+}

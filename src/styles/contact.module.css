@@ -1,0 +1,91 @@
+.contentWrap {
+  margin-top: 30px;
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.title {
+  min-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: var(--font-cursive);
+  text-align: center;
+  font-size: 7em;
+  font-weight: 500;
+  pointer-events: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  transition: all linear 200ms;
+}
+
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2em;
+  text-align: justify;
+  position: relative;
+  transition: all linear 500ms;
+}
+
+.mailForm {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  text-align: right;
+}
+.mailForm input {
+  width: 100%;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  font-family: var(--font-main);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border: 1px solid rgb(111, 111, 111);
+  border-top: 1px solid rgb(89, 89, 89);
+  border-left: 1px solid rgb(89, 89, 89);
+}
+.mailForm textarea {
+  width: 100%;
+  font-size: 1.5em;
+  border-radius: 5px;
+  font-family: var(--font-main);
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  border: 1px solid rgb(111, 111, 111);
+  border-top: 1px solid rgb(89, 89, 89);
+  border-left: 1px solid rgb(89, 89, 89);
+  margin-bottom: 0.5em;
+}
+.mailForm button {
+  display: inline;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #f45b69;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+
+  transition: all linear 20ms;
+  position: relative;
+}
+
+.error {
+  border: 2px solid rgb(191, 0, 0) !important;
+}

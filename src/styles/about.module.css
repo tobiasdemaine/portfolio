@@ -1,0 +1,83 @@
+.contentWrap {
+  margin-top: 30px;
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px;
+}
+
+.title {
+  min-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: var(--font-cursive);
+  text-align: center;
+  font-size: 7em;
+  font-weight: 500;
+  pointer-events: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  transition: all linear 200ms;
+}
+
+.description {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2em;
+  text-align: justify;
+  position: relative;
+  transition: all linear 500ms;
+}
+
+.quote {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(--font-break);
+  transition: all linear 750ms;
+}
+
+.qauthor {
+  font-size: 1rem;
+  font-family: var(--font-mono);
+  text-align: right;
+}
+
+.end {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2em;
+  text-align: justify;
+  margin-bottom: 3em;
+  position: relative;
+  transition: all linear 500ms;
+}
+
+.hide {
+  transform: scale(0);
+  transition: all linear 500ms;
+}
+
+@media screen and (max-width: 500px) {
+  .description {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
+  }
+  .quote {
+    font-size: 3em;
+  }
+  .end {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
+  }
+}

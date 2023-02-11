@@ -1,0 +1,115 @@
+.contentWrap {
+  margin-top: 30px;
+  font-family: var(--font-main);
+  text-align: center;
+  vertical-align: top;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  pointer-events: none;
+}
+.contentWrap:hover > .contentListItem:not(:hover) {
+  filter: blur(0.5px);
+}
+.contentWrap > * {
+  pointer-events: auto;
+}
+
+.title {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: var(--font-cursive);
+  text-align: center;
+  font-size: 6em;
+  font-weight: 500;
+  pointer-events: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.contentListItem {
+  width: 350px;
+  margin: 1em;
+  cursor: pointer;
+
+  border-radius: var(--border-radius);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  transition: all linear 100ms;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.contentListItem:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  transform: scale(1.05);
+  transition: all linear 100ms;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  opacity: 1;
+}
+
+.contentListImage {
+  width: 100%;
+  height: 200px;
+  border-top-right-radius: var(--border-radius);
+  border-top-left-radius: var(--border-radius);
+  border: 0;
+  object-fit: cover;
+}
+
+.contentListItemName {
+  font-weight: 200;
+  font-size: 1.2em;
+  padding: 0.2em;
+  white-space: nowrap;
+}
+
+.contentListItemDescription {
+  padding: 1em;
+  min-height: 100px;
+  max-height: 100px;
+  overflow: hidden;
+  text-align: justify;
+  align-self: bottom;
+  background-color: rgba(var(--item-background));
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+}
+
+.hide {
+  transform: scale(0);
+  transition: all linear 500ms;
+}
+
+.exit_left {
+  left: -2000px;
+  opacity: 1;
+  animation: animateLeft 1s;
+}
+
+@keyframes animateLeft {
+  from {
+    left: 0px;
+    opacity: 1;
+  }
+  to {
+    left: -2000px;
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .title {
+    font-size: 3em;
+  }
+  .contentListItem {
+    margin: 20px;
+    width: 100%;
+  }
+}

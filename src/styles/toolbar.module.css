@@ -1,0 +1,26 @@
+.toolbarWrap {
+  font-family: var(--font-main);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: fixed;
+  vertical-align: middle;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  background-color: rgba(var(--nav-rgb));
+  cursor: pointer;
+  z-index: 9999;
+}
+.itemsRight {
+  margin-right: 10px;
+  vertical-align: middle;
+  align-self: center;
+  margin-top: 3px;
+}
+.itemLeft {
+  font-weight: 600;
+  font-size: 1.1em;
+  text-transform: lowercase;
+  flex-grow: 1;
+}

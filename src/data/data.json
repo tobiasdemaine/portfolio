@@ -1,0 +1,563 @@
+{
+  "introduction": {
+    "image": "",
+    "text": [
+      "We build software ",
+      "Need something a little different",
+      "outside the box",
+      "or  something more conventional",
+      "maybe you just ",
+      "need a developer to fill a role"
+    ]
+  },
+  "toolbar": {
+    "title": "De Maine",
+    "about": "about",
+    "contact": "contact"
+  },
+  "about": {
+    "title": "About",
+    "description": "Based in Agnes Water Australia, De Maine is family run software house developing unique boutique software for a miriad of sectors. Our clients have presented us with challenges that led us on a path to creating some truely unique software and digital experiences. ",
+    "quote": "A Cool Quote",
+    "qauthor": "Kevin Kevins",
+    "end": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "contact": {
+    "title": "Don't be shy!",
+    "description": "Like what we do? Have a project you want realised or maybe need a Developer to finish your project. We would love to hear from you."
+  },
+  "main": {
+    "title": "Discover",
+    "oneliner": "our work",
+    "types": [
+      "Web Apps",
+      "Digital Installations",
+      "Augemented Reality",
+      "Web Sites",
+      "E Commerce",
+      "iOS Apps"
+    ],
+    "secondliner": "our products",
+    "technologies": ["Zonify", "Art Net", "Ceramassist", "Map"],
+    "thirdliner": "our skills",
+    "tags": [
+      "Full Stack",
+      "UI Design",
+      "Interactives",
+      "AR / VR",
+      "Web 3 / Crypto"
+    ]
+  },
+  "projects": [
+    {
+      "date": "2023",
+      "name": "Portfolio",
+      "client": "De Maine",
+      "short": "An open-source React / NextJs portfolio site",
+      "description": "A template for creating a portfolio site",
+      "technology": ["ReactJs", "NextJs", "Typescript", "Nodejs", "CSS"],
+      "tags": ["Full Stack", "UI Design"],
+      "thumb": "/assets/img/works/thumb-portfolio.jpg",
+      "head": "/assets/img/works/head-portfolio.jpg",
+      "media": ["img.jpg"],
+      "links": ["http://tech.tobiasdemaine.com"],
+      "embed": [{ "swf": "linktofile" }],
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2022",
+      "name": "Zonify",
+      "client": "De Maine",
+      "short": "We App and delivery platform for Geolocation interactive information and learning kiosks",
+      "description": "App and delivery platform for Geo location driven information kiosks and augmented reality informational experiences. Broken into 2 products: B2B and App.",
+      "thumb": "/assets/img/works/thumb-zonify.jpg",
+      "head": "/assets/img/works/head-zonify.jpg",
+      "technology": [
+        "ReactJs",
+        "Nextjs",
+        "TailwindCss",
+        "React Mui",
+        "Nodejs",
+        "Express",
+        "MongoDb",
+        "REST Api",
+        "GraphQL"
+      ],
+      "tags": ["Full Stack", "UI Design"],
+      "media": [
+        {
+          "file": "/assets/img/works/zonify/admin.jpg",
+          "description": "Zonify Adminstration"
+        },
+        {
+          "file": "/assets/img/works/zonify/app-map.jpg",
+          "description": "Zonify App Map Screen"
+        },
+        {
+          "file": "/assets/img/works/zonify/app-outside.jpg",
+          "description": "Zonify App Outside of a Zone"
+        },
+        {
+          "file": "/assets/img/works/zonify/app-settings.jpg",
+          "description": "Zonify App Settings Screen"
+        }
+      ],
+      "links": [{ "url": "https://zonify.co", "title": "Zonfiy Web Site" }],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2022",
+      "name": "Solid State",
+      "client": "De Maine",
+      "short": "OpenSource Platform for trading artwork as shares",
+      "description": "An open-source platform for trading artworks as shares that serves as a base for future possible web3 trading applications. Includes a Python 3 Brownie back-end for Solidity contract development deployment and testing, a Nodejs Rest Api for deploying artwork contracts to the Ethereum blockchain and IPFS file storage, and a React front-end.",
+      "technology": ["Python 3", "Brownie", "Nodejs", "React"],
+      "tags": ["Full Stack", "UI Design"],
+      "media": [],
+      "links": ["https://solidstate.tobiasdemaine.com"],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2021",
+      "name": "Luminous Light Festival",
+      "client": "Gladstone Regional Council",
+      "short": "Ai Based Interactive Projection",
+      "description": "AI based Interactive mapped projections for the GLadstone Regional Councils's Luminous Light Festival. Punters load their faces into the application from a Android Based Tablet Kiosk, where AI sorts them into Male, Female and Age. Three speate projections of Adult Male, Adult Female and Child are projected on to foliage on the banks of a creek.",
+      "technology": ["ThreeJs", "GLSL Shaders"],
+      "tags": ["Product Design", ""],
+      "media": [],
+      "links": [],
+
+      "type": ["Digital Installations", "Augemented Reality"]
+    },
+    {
+      "date": "2019",
+      "name": "Luminous Light Festival",
+      "client": "Gladstone Regional Council",
+      "short": "Ai Based Interactive Projection",
+      "description": "WE:\\Triad at Luminous Light Festival Gladstone July 2019 is a digital projection installation the used Deep Learning Algorithms to categorise captured faces, into adult male, female and child. Caught faces are transformed into 3d meshes that are animated via mesh morphing and alpha blending. The public add their faces to WE via a tablet mounted on the temporary fencing to the left of the projections. Conceptually WE:\\Triad navigates the premise that the triad of humanity, man, woman and child is an ancient entropy defeating organism.",
+      "technology": [
+        "Python",
+        "Tensor Flow ",
+        "Dlib",
+        "OpenCV",
+        "OpenGL",
+        "Javascript",
+        "webGL"
+      ],
+      "tags": ["Artist", "Full Stack"],
+      "media": [
+        {
+          "file": "/assets/img/works/luminous2019/1.jpg",
+          "description": "Luminous",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/luminous2019/2.jpg",
+          "description": "Luminous",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/luminous2019/3.jpg",
+          "description": "Luminous",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/luminous2019/4.jpg",
+          "description": "Luminous",
+          "type": "image"
+        },
+        {
+          "file": "uNxOiGYRRYo",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2019/thumb.webp"
+        }
+      ],
+      "thumb": "/assets/img/works/thumb-luminous-2019.jpg",
+      "head": "/assets/img/works/head-luminous-2019.jpg",
+      "links": [
+        {
+          "url": "http://tobiasdemaine.com/work/projects/we/",
+          "title": "Project Overview"
+        }
+      ],
+
+      "type": ["Digital Installations", "Augemented Reality"]
+    },
+    {
+      "date": "2017",
+      "name": "Ceramassist",
+      "client": "Kaolin and Coal",
+      "short": "Web App for ceramic studio production management",
+      "description": "Software and Website for small wood fired ceramics partnership",
+      "technology": ["software for ceramic process"],
+      "tags": ["Word Press", "Graphic Design", "Web & Software Developer"],
+      "media": [],
+      "links": ["https://github.com/tobiasdemaine/ceramassist"],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2017",
+      "name": "Kaolin and Coal",
+      "client": "Kaolin and Coal",
+      "short": "Website for Ceramic Studio",
+      "description": "Software and Website for small wood fired ceramics partnership",
+      "technology": [
+        "Word Press",
+        "UI Design",
+        "development of wood fire kilns"
+      ],
+      "tags": ["Word Press", "Graphic Design", "Web & Software Developer"],
+      "media": [],
+      "links": [{ "url": "https://kaolinandcoal.com", "title": "Website" }],
+
+      "type": ["Web Apps", "Website", "E Commerce"]
+    },
+    {
+      "date": "2019",
+      "name": "Art Net",
+      "client": "DeMaine",
+      "short": "Framework for netowrk driven interactives via web browsers",
+      "description": "ArtNet is a framework for making network driven interactives via web browser",
+      "technology": ["threeJS", "WebGL", "GLSL"],
+      "tags": ["GLSL", "public artwork", "graphics programming"],
+      "media": [""],
+      "links": [
+        {
+          "url": "http://tobiasdemaine.com/work/projects/bmap",
+          "title": "Project Overview"
+        },
+        { "url": "https://github.com/tobiasdemaine/bmap", "title": "Github" }
+      ],
+      "embed": [
+        {
+          "js": "https://github.com/tobiasdemaine/bmap/blob/master/template/static/js/bmap.js"
+        }
+      ],
+      "type": ["Digital Installation", "Web Apps"]
+    },
+    {
+      "date": "2019",
+      "name": "BMap",
+      "client": "Livingstone Shire Council",
+      "short": "Mapped projection public Artwork",
+      "description": "A mapped projection public artwork commissioned by the Livingstone Shire Council Smart Arts initiative in conjunction with Australian Federal Government.",
+      "technology": ["threeJS", "WebGL", "GLSL"],
+      "tags": ["GLSL", "public artwork", "graphics programming"],
+      "media": [""],
+      "links": [
+        {
+          "url": "http://tobiasdemaine.com/work/projects/bmap",
+          "title": "Project Overview"
+        },
+        { "url": "https://github.com/tobiasdemaine/bmap", "title": "Github" }
+      ],
+      "embed": [
+        {
+          "js": "https://github.com/tobiasdemaine/bmap/blob/master/template/static/js/bmap.js"
+        }
+      ],
+      "type": ["Digital Installation", "Web Apps"]
+    },
+    {
+      "date": "2019",
+      "name": "Wreck Point AR",
+      "client": "Livingstone Shire Council",
+      "short": "Augmented Reality Web Application",
+      "description": "An educational interactive artwork designed and developed for the Livingstone Shire Placemaking.",
+      "technology": ["arZone plugin"],
+      "tags": ["Augmented Reality", "educational"],
+      "media": [""],
+      "links": [],
+
+      "type": ["Augemented Reality", "Web Apps"]
+    },
+    {
+      "date": "2019",
+      "name": "Storm Surge Totems",
+      "client": "Livingstone Shire Council",
+      "short": "Augmented Reality Web Application",
+      "description": "An educational interactive artwork, designed and developed for the Livingstone Shire Council Disaster Center.",
+      "technology": ["arZone plugin"],
+      "tags": ["Augmented Reality", "educational"],
+      "media": [""],
+      "links": [],
+
+      "type": ["Augemented Reality", "Web Apps"]
+    },
+    {
+      "date": "2018",
+      "name": "PORTal",
+      "client": "Rockhampton Regional Council",
+      "short": "Augmented Reality Artwork ",
+      "description": "An Augmented Reality geolocation driven audio work commissioned by the Rockhampton Regional Council.",
+      "technology": [],
+      "tags": ["Augmented Reality", "audio"],
+      "media": [""],
+      "links": [
+        { "url": "http://portal.rockhamptonartgallery.com.au", "title": "App" },
+        { "url": "https://github.com/tobiasdemaine/PORTal", "title": "Github" }
+      ],
+
+      "type": ["Augemented Reality", "Web Apps"]
+    },
+    {
+      "date": "2017",
+      "name": "Simply One Question",
+      "client": "Pebble Design",
+      "short": "Self Improvement web app",
+      "description": "A self improvement web application with a Node.js Rest API backend and html5 frontend.",
+      "technology": ["html5", "CSS", "Javascript", "Nodejs", "MongoDB"],
+      "tags": ["web application", "self improvement"],
+      "media": [""],
+      "links": ["https://www.simplyonequestion.com/"],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2017",
+      "name": "Pebble Design",
+      "client": "Price Check",
+      "short": "Hotel Booking Pricing tool plugin for exisiting website",
+      "description": "Development of a hotel booking site web crawling pricing tool",
+      "technology": ["Full Stack Developer/ Application Designer"],
+      "location": "Noosa, Queensland, Australia",
+      "links": ["https://pebbledesign.com/price-check-loyalty-discount-tool"],
+      "media": [],
+
+      "type": ["Website Addon", "Web Apps"]
+    },
+    {
+      "date": "2016",
+      "name": "Frontline Care Solutions",
+      "client": "A geriatrics care education organisation",
+      "short": "Web Site for Edu Org",
+      "description": "Implementation of E-learning systems, 2 word press website rebuilds and packaging of websites as Android and IOS applications using Cordova",
+      "technology": ["Full-stack Developer"],
+      "location": "Noosaville, Queensland, Australia",
+      "links": [],
+      "media": [],
+
+      "type": ["Web Sites"]
+    },
+    {
+      "date": "2014",
+      "name": "Ozihub",
+      "short": "In Huse Web app for factory and business management",
+      "client": "In house business & factory job system with e commerce website integration for a signage and safety product business",
+      "description": "",
+      "technology": ["Full-stack Developer"],
+      "location": "Gladstone, Queensland, Australia",
+      "links": [],
+      "media": [],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2014",
+      "name": "IMRG",
+      "short": "Bespoke Content managment System",
+      "client": "Bespoke PHP content management system",
+      "description": "LAMP stack application",
+      "technology": ["Full-stack Developer"],
+      "location": "London, England, United Kingdom",
+      "links": ["http://web.archive.org/web/20140407233541/http://imrg.org/"],
+      "media": [],
+
+      "type": ["Web Sites"]
+    },
+
+    {
+      "date": "2013",
+      "name": "Splash Creative",
+      "client": "Spanish Tourism IOS Maganzine App",
+      "short": "IOS APp for Spanish Tourism Magazine",
+      "description": "",
+      "technology": ["Full-stack Developer", "IOS APP Developer"],
+      "location": "London, England, United Kingdom",
+      "links": [],
+      "media": [],
+
+      "type": ["iOS Apps"]
+    },
+    {
+      "date": "2012",
+      "name": "Skill for Kids",
+
+      "client": "Heavily customised Joomla based child development information system",
+      "short": "Website for child development strategies",
+      "description": "",
+      "technology": ["Full-stack Developer"],
+      "location": "Brisbane, Queensland, Australia",
+      "links": [],
+      "media": [],
+
+      "type": ["Web Sites"]
+    },
+    {
+      "date": "March 2012",
+      "name": "Chanoff PTYLTD",
+      "client": "Chanoff PTYLTD",
+      "short": "End of day share trading platform",
+      "description": "Full-stack Developer, Technical Analyst",
+      "technology": ["Technical analysis", "End of Day share trading platform"],
+      "tags": [],
+      "media": [],
+      "links": [],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "November 2010",
+      "name": "SIGN OPTIONS",
+      "client": "SIGN OPTIONS",
+      "description": "Full Stack Developer",
+      "short": "Flash E commerce Websites",
+      "technology": ["Multiple small e-commerce flash websites"],
+      "tags": [],
+      "media": [],
+      "links": [
+        "https://web.archive.org/web/20100220142657/http://www.boatsticker.com.au/"
+      ],
+
+      "type": ["Web Sites"]
+    },
+    {
+      "date": "December 2008",
+      "name": "OKO T PTY LTD",
+      "client": "OKO T PTY LTD",
+      "short": "Video Perfomance software for music festivals",
+      "description": "Software Developer, Visual Artist",
+      "technology": [
+        "Design and development of video performance software for music performance",
+        "C, C++, FFMEG, OpenGL, Cluster Technologies, Video Streaming, VB, Visual Studio"
+      ],
+      "tags": [],
+      "media": [],
+      "links": [],
+
+      "type": ["Application"]
+    },
+    {
+      "date": "2008",
+      "name": "Ian Reynolds Projects",
+      "client": "Ian Reynolds Projects",
+      "short": "flash application ",
+      "description": "Flash Developer, Full Stack Developer",
+      "technology": [
+        "Brought into finish bug riddled Flash application for designing funeral products",
+        "multiple e commerce websites"
+      ],
+      "tags": [],
+      "media": [],
+      "links": [],
+
+      "type": ["Flash App"]
+    },
+    {
+      "date": "2007",
+      "name": "Autodesk SPRL",
+      "client": "Autodesk SPRL",
+      "short": "flash development",
+      "description": "Product art localisation leader / Flash developer",
+      "technology": [
+        "Product art localisation leader (MSD division, Autocad Mechanical, Inventor) / Senior flash developer for product documentation and localisation : 2 product Cycles"
+      ],
+      "tags": [],
+      "media": [],
+      "links": [],
+
+      "type": ["Flash App"]
+    },
+    {
+      "date": "2007",
+      "name": "Valgenics",
+      "client": "Valgenics",
+      "short": "Psycholanalysis card system",
+      "description": "Flash Developer",
+      "technology": [
+        "Building a Flash psychoanalysis card system for determining personality traits"
+      ],
+      "tags": [],
+      "media": [],
+      "links": [],
+
+      "type": ["Web Apps"]
+    },
+    {
+      "date": "2004",
+      "name": "Studio 55",
+      "client": "Studio 55",
+      "short": "Web Dev",
+      "description": "Web / Multimedia Developer",
+      "technology": ["Websites", "cd-roms", "in-house business systems"],
+      "tags": ["Web Development", "Multimedia"],
+      "media": ["studio55.jpg"],
+      "links": ["http://studio55.com"],
+
+      "type": ["Web Sites", "Flash App"]
+    },
+    {
+      "date": "2002",
+      "name": "Gold Coast Exhibition Center",
+      "short": "WebSite",
+      "client": "Jupiter Technologies",
+      "description": "Web Developer for Gold Coast Exhibition Center Website",
+      "technology": ["Web Development"],
+      "tags": ["Website Development"],
+      "media": ["jupiter_tech.jpg"],
+      "links": [
+        "https://web.archive.org/web/20031003232635/http://www.gccec.com.au/"
+      ],
+
+      "type": ["Web Sites", "Flash App"]
+    },
+    {
+      "date": "2002",
+      "name": "Unicomm",
+      "client": "Unicomm",
+      "short": "WebSite",
+      "description": "Web Developer for Cabling and Data company",
+      "technology": ["PHP", "MySQL", "CMS"],
+      "tags": ["Website Development", "CMS"],
+      "media": ["unicom.jpg"],
+      "links": [
+        "https://web.archive.org/web/20020925200611/http://unicomm.com.au/"
+      ],
+
+      "type": ["Web Sites", "Flash App"]
+    },
+    {
+      "date": "2001",
+      "name": "Little Poss",
+      "client": "Networkers",
+      "short": "website",
+      "description": "Web Developer for Epilepsy Australia Children's Website",
+      "technology": ["Web Development"],
+      "tags": ["Website Development"],
+      "media": ["networkers.jpg"],
+      "links": ["http://networkers.com"],
+
+      "type": ["Web Sites", "Flash App"]
+    },
+    {
+      "date": "2000",
+      "name": "Heritage Holdings PTY LTD",
+      "client": "Heritage Holdings PTY LTD",
+      "short": "website",
+      "description": "Graphic Designer / Frontend Developer for e-commerce system Plaza",
+      "technology": ["Graphic Design", "Frontend Development"],
+      "tags": ["Design", "Frontend Development", "html", "Javascript", "html"],
+      "media": ["heritage_holdings.jpg"],
+      "links": [
+        "https://web.archive.org/web/20091015014007/http://unicomm.com.au/"
+      ],
+
+      "type": ["Web Sites"]
+    }
+  ]
+}
