@@ -17,14 +17,16 @@
   },
   "about": {
     "title": "About",
-    "description": "Based in Agnes Water Australia, De Maine is family run software house developing unique boutique software for a miriad of sectors. Our clients have presented us with challenges that led us on a path to creating some truely unique software and digital experiences. ",
+    "description": "Based in Agnes Water Australia, De Maine is a family developing unique boutique software and multi media for a miriad of sectors. Our clients have presented us with challenges that led us on a path to creating some truely unique software and digital experiences. ",
     "quote": "A Cool Quote",
     "qauthor": "Kevin Kevins",
     "end": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   "contact": {
     "title": "Don't be shy!",
-    "description": "Like what we do? Have a project you want realised or maybe need a Developer to finish your project. We would love to hear from you."
+    "description": "Like what we do? Have a project you want realised or maybe need a Developer to finish your project. We would love to hear from you.",
+    "thankyou": "Thank you, we will be in contact shortly.",
+    "error": "An error has occurred"
   },
   "main": {
     "title": "Discover",

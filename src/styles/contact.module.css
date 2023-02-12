@@ -10,6 +10,14 @@
   top: 0;
   left: 0;
   padding: 5px;
+  transition: all linear 1s;
+  opacity: 1;
+  position: relative;
+}
+
+.contentWrapBegin {
+  filter: blur(50px);
+  opacity: 0;
 }
 
 .title {
@@ -33,6 +41,32 @@
   text-align: justify;
   position: relative;
   transition: all linear 500ms;
+}
+
+.thankyou {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4em;
+
+  position: relative;
+  transition: all linear 500ms;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(--font-break);
+}
+
+.errorEmail {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4em;
+
+  position: relative;
+  transition: all linear 500ms;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: var(--font-break);
 }
 
 .mailForm {
@@ -88,4 +122,75 @@
 
 .error {
   border: 2px solid rgb(191, 0, 0) !important;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+  margin-left: auto;
+  margin-left: auto;
+  width: 100%;
+  margin-top: 170px;
+}
+.loader {
+  width: 70px;
+  height: 35px;
+  position: relative;
+  overflow: hidden;
+}
+.loader:before {
+  content: "";
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 5px solid #0000;
+  border-color: #fff #fff #0000 #0000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotate 3s ease-in-out infinite;
+  transform: rotate(-200deg);
+}
+@keyframes rotate {
+  0% {
+    border-width: 10px;
+  }
+  25% {
+    border-width: 3px;
+  }
+  50% {
+    transform: rotate(115deg);
+    border-width: 10px;
+  }
+  75% {
+    border-width: 3px;
+  }
+  100% {
+    border-width: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .thankyou {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .errorEmail {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .description {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.7em;
+  }
+  .title {
+    font-size: 5em;
+  }
+  .mailForm {
+    width: 90%;
+  }
 }

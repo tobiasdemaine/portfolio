@@ -23,7 +23,7 @@
   font-weight: 100;
   font-size: 7em;
   position: relative;
-  transition: all linear 100ms;
+  transition: all linear 300ms;
   font-family: var(--font-cursive);
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
@@ -50,7 +50,7 @@
   margin-left: 1em;
   margin-right: 1em;
   position: relative;
-  transition: all linear 100ms;
+  transition: all linear 200ms;
   font-weight: 200;
 }
 .contentWrap ul {
@@ -68,7 +68,7 @@
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   width: 350px;
-  transition: all linear 100ms;
+  transition: all linear 300ms;
   position: relative;
 }
 
@@ -83,7 +83,13 @@
 
 .hide_li {
   transform: scale(0);
-  transition: all linear 500ms;
+  transition: all linear 200ms;
+  filter: blur(10px);
+}
+
+.blur_li {
+  transition: all linear 200ms;
+  filter: blur(50px);
 }
 
 .exit_left {

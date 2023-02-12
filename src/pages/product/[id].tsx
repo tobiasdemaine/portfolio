@@ -1,16 +1,22 @@
+import { useEffect, useState } from "react";
 import { Toolbar } from "@/components/toolbar";
 import { ContentLoader } from "@/hooks/content_loader";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import styles from "@/styles/index.module.css";
 import { ContentDisplay } from "@/components/content-display";
-import { useEffect, useState } from "react";
 
 const Product = () => {
   const router = useRouter();
   const { GetContentToolbar, GetContentContentByName } = ContentLoader();
   const [content, setContent] = useState<any>(null);
-
+  const [exitAnimate, setExitAnimate] = useState(false);
+  const [animate, setAnimate] = useState(styles.indexWrapDisplay);
+  useEffect(() => {
+    if (exitAnimate == true) {
+      setAnimate([styles.indexWrap, styles.animateOut].join(" "));
+    }
+  }, [exitAnimate]);
   useEffect(() => {
     if (router.query.id !== undefined) {
       setContent(GetContentContentByName(router.query.id as string));
@@ -34,9 +40,9 @@ const Product = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav>
-        <Toolbar content={GetContentToolbar()} />
+        <Toolbar content={GetContentToolbar()} exitAnimate={setExitAnimate} />
       </nav>
-      <main className={styles.indexWrapDisplay}>
+      <main className={animate}>
         {content && (
           <ContentDisplay content={content} title={router.query.id as string} />
         )}

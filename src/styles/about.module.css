@@ -62,6 +62,7 @@
 }
 
 .hide {
+  filter: blur(10px);
   transform: scale(0);
   transition: all linear 500ms;
 }

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/index.module.css";
@@ -17,7 +17,8 @@ export default function Home() {
     type: "",
     query: "",
   });
-
+  const [exitAnimate, setExitAnimate] = useState(false);
+  const [animate, setAnimate] = useState(styles.indexWrap);
   return (
     <>
       <Head>
@@ -28,7 +29,7 @@ export default function Home() {
       </Head>
       {appState.section !== "introduction" && (
         <nav>
-          <Toolbar content={GetContentToolbar()} />
+          <Toolbar content={GetContentToolbar()} exitAnimate={setExitAnimate} />
         </nav>
       )}
 

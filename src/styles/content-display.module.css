@@ -261,4 +261,7 @@
     text-align: left;
     min-width: 45vw;
   }
+  .contentName {
+    font-size: 6em;
+  }
 }

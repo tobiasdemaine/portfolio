@@ -11,8 +11,8 @@ export const Main = ({ content }: mainProps) => {
   const router = useRouter();
   const [liShow, setLiShow] = useState<any>([
     styles.hide_li,
-    styles.hide_li,
-    styles.hide_li,
+    styles.blur_li,
+    styles.blur_li,
   ]);
   const [titleShow, setTitleShow] = useState<any>(styles.hide_li);
   useEffect(() => {

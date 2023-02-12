@@ -2,23 +2,34 @@ import styles from "@/styles/toolbar.module.css";
 import { useRouter } from "next/router";
 interface ToolbarProps {
   content: any;
+  exitAnimate: Function;
 }
 
-export const Toolbar = ({ content }: ToolbarProps) => {
+export const Toolbar = ({ content, exitAnimate }: ToolbarProps) => {
   const router = useRouter();
   return (
     <div className={styles.toolbarWrap}>
       <div
         className={styles.itemLeft}
         onClick={() => {
-          router.push(`/discover`);
+          if (window.location.href.split("/").pop() != "discover") {
+            exitAnimate(true);
+            setTimeout(() => {
+              router.push(`/discover`);
+            }, 500);
+          }
         }}
       >
         {content.title}
       </div>
       <div
         onClick={() => {
-          router.push(`/about`);
+          if (window.location.href.split("/").pop() != "about") {
+            exitAnimate(true);
+            setTimeout(() => {
+              router.push(`/about`);
+            }, 500);
+          }
         }}
         className={styles.itemsRight}
       >
@@ -26,7 +37,12 @@ export const Toolbar = ({ content }: ToolbarProps) => {
       </div>
       <div
         onClick={() => {
-          router.push(`/contact`);
+          if (window.location.href.split("/").pop() != "contact") {
+            exitAnimate(true);
+            setTimeout(() => {
+              router.push(`/contact`);
+            }, 500);
+          }
         }}
         className={styles.itemsRight}
       >
