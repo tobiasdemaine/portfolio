@@ -12,5 +12,7 @@ npm run dev
 create a .env file for email
 
 ```
-EMAILSRV=localhost:5500
+EMAILSERVER=
+EMAILUSER=
+EMAILPASS=
 ```

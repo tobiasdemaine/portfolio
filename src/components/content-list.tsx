@@ -1,6 +1,7 @@
 import _ from "lodash";
 import styles from "@/styles/content-list.module.css";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export interface ContentProps {
@@ -29,7 +30,7 @@ export const ContentList = ({ content, title }: ContentProps) => {
   );
 
   const [titleShow, setTitleShow] = useState<any>(
-    [styles.title, styles.hide].join(" ")
+    [styles.title, styles.titletop].join(" ")
   );
 
   useEffect(() => {
@@ -46,15 +47,18 @@ export const ContentList = ({ content, title }: ContentProps) => {
           className={divShow}
           onClick={() => {
             setDivShow([styles.contentListItem, styles.exit_left].join(" "));
-            setTitleShow([styles.title, styles.hide].join(" "));
+            setTitleShow([styles.title, styles.exit_top].join(" "));
             setTimeout(() => {
               router.push(`/display/${encodeURIComponent(item.name)}`);
             }, 500);
           }}
         >
-          <img
+          <Image
             className={styles.contentListImage}
             src={item.thumb ? item.thumb : "/assets/img/no-image.png"}
+            alt={item.name}
+            width="10"
+            height="10"
           />
           <div className={styles.contentListItemName}>{item.name}</div>
           <div className={styles.contentListItemDescription}>{item.short}</div>

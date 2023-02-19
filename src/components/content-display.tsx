@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
-
+import parse from "html-react-parser";
 import styles from "@/styles/content-display.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 import {
   faPlayCircle,
   faMagnifyingGlass,
@@ -22,7 +23,6 @@ export const ContentDisplay = ({ content }: ContentProps) => {
     description: "",
   });
 
-  console.log(content);
   return (
     <>
       <div className={styles.contentWrap}>
@@ -36,13 +36,13 @@ export const ContentDisplay = ({ content }: ContentProps) => {
         {/*<div className={styles.contentDate}>{content.date}</div>*/}
 
         <div className={styles.contentDescription}>
-          <div>{content.description}</div>
+          <div>{parse(content.description)}</div>
           <div className={styles.contentLinksWrap}>
             {content?.links.length > 0 && (
               <div className={styles.contentLinks}>
                 {content.links.map((data: any, index: number) => (
                   <div key={index} className={styles.contentLinksData}>
-                    <a href={data.url} target="_blank">
+                    <a href={data.url} target="_blank" rel="noreferrer">
                       {data.title}
                     </a>
                   </div>
@@ -90,10 +90,12 @@ export const ContentDisplay = ({ content }: ContentProps) => {
                 }}
               >
                 <div className={styles.contentMediaFile}>
-                  <img
+                  <Image
                     className={styles.mediaSmall}
                     src={!data.thumb ? data.file : data.thumb}
                     alt={data?.description}
+                    width="10"
+                    height="10"
                   />
                 </div>
                 <FontAwesomeIcon
@@ -140,10 +142,12 @@ export const ContentDisplay = ({ content }: ContentProps) => {
                 allowFullScreen
               ></iframe>
             ) : (
-              <img
+              <Image
                 className={styles.mediaNormal}
                 src={fullScreenContent.src}
                 alt={fullScreenContent.description}
+                width="10"
+                height="10"
               />
             )}
           </div>

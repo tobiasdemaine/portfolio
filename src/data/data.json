@@ -5,7 +5,7 @@
       "We build software ",
       "Need something a little different",
       "outside the box",
-      "or  something more conventional",
+      "or something more conventional",
       "maybe you just ",
       "need a developer to fill a role"
     ]
@@ -18,13 +18,13 @@
   "about": {
     "title": "About",
     "description": "Based in Agnes Water Australia, De Maine is a family developing unique boutique software and multi media for a miriad of sectors. Our clients have presented us with challenges that led us on a path to creating some truely unique software and digital experiences. ",
-    "quote": "A Cool Quote",
-    "qauthor": "Kevin Kevins",
-    "end": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "quote": "Design is where science and art break even.",
+    "qauthor": "Robin Mathews",
+    "end": "We firmly believe that software development is more than just a matter of technical ability. Our team  has an exclusive blend of creative and technical skills, allowing us to produce outstanding software solutions. We are fully committed to delivering inventive software that outshines the competition and fulfills all of our clients' demands. With our unparalleled combination of technical know-how and artistic finesse, we are eager to elevate your software project to the next level."
   },
   "contact": {
     "title": "Don't be shy!",
-    "description": "Like what we do? Have a project you want realised or maybe need a Developer to finish your project. We would love to hear from you.",
+    "description": "Like what we do? Have a project you want realised or maybe you need a developer to finish your project. We would love to hear from you.",
     "thankyou": "Thank you, we will be in contact shortly.",
     "error": "An error has occurred"
   },
@@ -36,11 +36,10 @@
       "Digital Installations",
       "Augemented Reality",
       "Web Sites",
-      "E Commerce",
-      "iOS Apps"
+      "E Commerce"
     ],
     "secondliner": "our products",
-    "technologies": ["Zonify", "Art Net", "Ceramassist", "Map"],
+    "technologies": ["Zonify", "AR[t]", "Ceramassist"],
     "thirdliner": "our skills",
     "tags": [
       "Full Stack",
@@ -52,26 +51,11 @@
   },
   "projects": [
     {
-      "date": "2023",
-      "name": "Portfolio",
-      "client": "De Maine",
-      "short": "An open-source React / NextJs portfolio site",
-      "description": "A template for creating a portfolio site",
-      "technology": ["ReactJs", "NextJs", "Typescript", "Nodejs", "CSS"],
-      "tags": ["Full Stack", "UI Design"],
-      "thumb": "/assets/img/works/thumb-portfolio.jpg",
-      "head": "/assets/img/works/head-portfolio.jpg",
-      "media": ["img.jpg"],
-      "links": ["http://tech.tobiasdemaine.com"],
-      "embed": [{ "swf": "linktofile" }],
-      "type": ["Web Apps"]
-    },
-    {
       "date": "2022",
       "name": "Zonify",
       "client": "De Maine",
       "short": "We App and delivery platform for Geolocation interactive information and learning kiosks",
-      "description": "App and delivery platform for Geo location driven information kiosks and augmented reality informational experiences. Broken into 2 products: B2B and App.",
+      "description": "<h3>Zonify digital placemaking.</h3><p>Augment your places with information, media and interactivity, while increasing your community's engagement with their physical space.</p><p>Zonify is a platform and a progressive web app that can be branded and modified through an administration app to  display interactives and information at given geo locations. Click on the website link for a comprehensive product description.</p>",
       "thumb": "/assets/img/works/thumb-zonify.jpg",
       "head": "/assets/img/works/head-zonify.jpg",
       "technology": [
@@ -85,7 +69,7 @@
         "REST Api",
         "GraphQL"
       ],
-      "tags": ["Full Stack", "UI Design"],
+      "tags": ["Full Stack", "UI Design", "AR / VR", "Product Design"],
       "media": [
         {
           "file": "/assets/img/works/zonify/admin.jpg",
@@ -106,39 +90,71 @@
       ],
       "links": [{ "url": "https://zonify.co", "title": "Zonfiy Web Site" }],
 
-      "type": ["Web Apps"]
+      "type": ["Web Apps", "Augemented Reality"]
     },
     {
       "date": "2022",
       "name": "Solid State",
       "client": "De Maine",
       "short": "OpenSource Platform for trading artwork as shares",
-      "description": "An open-source platform for trading artworks as shares that serves as a base for future possible web3 trading applications. Includes a Python 3 Brownie back-end for Solidity contract development deployment and testing, a Nodejs Rest Api for deploying artwork contracts to the Ethereum blockchain and IPFS file storage, and a React front-end.",
+      "description": "A decentralised market for trading shares in Artworks. The owner of a collection artwork/s maintains storage and security of the artwork, while allowing for the artwork to realise its investment value by allowing others to invest in it as parts/shares. These parts/shares are ec20 tokens. The platform is broken into 2 contracts. The Artwork contract and The Gallery contract. Each Artwork Contract manages its own buy and sell orders / trades. The price of the Artwork's shares adjusts the artworks price. Ultimately \"the market\" defines the price of the artwork.",
       "technology": ["Python 3", "Brownie", "Nodejs", "React"],
-      "tags": ["Full Stack", "UI Design"],
+      "tags": ["Full Stack", "UI Design", "Web 3 / Crypto"],
       "media": [],
-      "links": ["https://solidstate.tobiasdemaine.com"],
-
+      "links": [
+        {
+          "url": "https://solidstate.tobiasdemaine.com",
+          "title": "Solid State Test Net"
+        },
+        {
+          "url": "https://github.com/tobiasdemaine/SolidState",
+          "title": "GitHub"
+        }
+      ],
+      "thumb": "/assets/img/works/thumb-solidstate.png",
+      "head": "/assets/img/works/head-solidstate.png",
       "type": ["Web Apps"]
     },
     {
       "date": "2021",
-      "name": "Luminous Light Festival",
+      "name": "Luminous Light Festival 2021",
       "client": "Gladstone Regional Council",
-      "short": "Ai Based Interactive Projection",
-      "description": "AI based Interactive mapped projections for the GLadstone Regional Councils's Luminous Light Festival. Punters load their faces into the application from a Android Based Tablet Kiosk, where AI sorts them into Male, Female and Age. Three speate projections of Adult Male, Adult Female and Child are projected on to foliage on the banks of a creek.",
-      "technology": ["ThreeJs", "GLSL Shaders"],
-      "tags": ["Product Design", ""],
-      "media": [],
+      "short": "Audio Interactive and AI Based Projections",
+      "description": "Audio Interactive mapped projections and AI based Interactive mapped projections utilising Ar[t] and Map technologies for the Gladstone Regional Councils Luminous Light Festival.",
+      "technology": [
+        "Python",
+        "Tensor Flow ",
+        "Dlib",
+        "OpenCV",
+        "OpenGL",
+        "Javascript",
+        "webGL"
+      ],
+      "tags": ["Artist", "Full Stack", "Product Design", "AR / VR"],
+      "media": [
+        {
+          "file": "eZjzim3vo_E",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2021/mq1.jpg"
+        },
+        {
+          "file": "inIS_dENchE ",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2021/mq2.jpg"
+        }
+      ],
       "links": [],
-
+      "thumb": "/assets/img/works/thumb-luminous-2021.jpg",
+      "head": "/assets/img/works/head-luminous-2021.jpg",
       "type": ["Digital Installations", "Augemented Reality"]
     },
     {
       "date": "2019",
-      "name": "Luminous Light Festival",
+      "name": "Luminous Light Festival 2019",
       "client": "Gladstone Regional Council",
-      "short": "Ai Based Interactive Projection",
+      "short": "AI Based Interactive Projection",
       "description": "WE:\\Triad at Luminous Light Festival Gladstone July 2019 is a digital projection installation the used Deep Learning Algorithms to categorise captured faces, into adult male, female and child. Caught faces are transformed into 3d meshes that are animated via mesh morphing and alpha blending. The public add their faces to WE via a tablet mounted on the temporary fencing to the left of the projections. Conceptually WE:\\Triad navigates the premise that the triad of humanity, man, woman and child is an ancient entropy defeating organism.",
       "technology": [
         "Python",
@@ -149,7 +165,8 @@
         "Javascript",
         "webGL"
       ],
-      "tags": ["Artist", "Full Stack"],
+
+      "tags": ["Artist", "Full Stack", "Product Design", "AR / VR"],
       "media": [
         {
           "file": "/assets/img/works/luminous2019/1.jpg",
@@ -194,182 +211,394 @@
       "name": "Ceramassist",
       "client": "Kaolin and Coal",
       "short": "Web App for ceramic studio production management",
-      "description": "Software and Website for small wood fired ceramics partnership",
-      "technology": ["software for ceramic process"],
-      "tags": ["Word Press", "Graphic Design", "Web & Software Developer"],
-      "media": [],
-      "links": ["https://github.com/tobiasdemaine/ceramassist"],
+      "description": "<h3>A workflow and documentation suite for ceramic artists</h3><P>Designed for Kaolin and Coal Ceramics.</P>Features include :<ul><li>Sample / Material database, with location maps and seger formula.</li><li>Document database, ability to link documents to other sections.</li><li>Formula Database.</li><li>Recipes Database, with groups</li><li>line, triaxle, quadraxial blend tests</li><li>Firing database with firing schedule and kiln database</li><li>Ware database, a place to store ware.</li><li>Distribution, interconnect wordpress / woo commerce web store to the ware database, manage exhibitions and stock in retailers/galleries</li>",
+      "technology": ["PHP", "Javascript", "Bootstrap", "CSS"],
+      "tags": ["Full Stack", "UI Design", "Product Design"],
+      "thumb": "/assets/img/works/thumb-ceramassist.jpg",
+      "head": "/assets/img/works/head-ceramassist.jpg",
+      "media": [
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-49-24.png",
+          "description": "Firing screen",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-48-49.png",
+          "description": "Firings list",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-48-22.png",
+          "description": "Triaxle blend test screen",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-47-28.png",
+          "description": "Tests list",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-47-12.png",
+          "description": "Glaze screen",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-46-36.png",
+          "description": "Glazes list",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-46-07.png",
+          "description": "Formula screen",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-45-42.png",
+          "description": "Formulae list",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-44-17.png",
+          "description": "Material screen",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-44-48.png",
+          "description": "Material list",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/ceramassist/Screenshot_2020-02-24_22-45-27.png",
+          "description": "Documents database",
+          "type": "image"
+        }
+      ],
+
+      "links": [
+        {
+          "url": "https://github.com/tobiasdemaine/ceramassist",
+          "title": "GitHub"
+        }
+      ],
 
       "type": ["Web Apps"]
     },
-    {
-      "date": "2017",
-      "name": "Kaolin and Coal",
-      "client": "Kaolin and Coal",
-      "short": "Website for Ceramic Studio",
-      "description": "Software and Website for small wood fired ceramics partnership",
-      "technology": [
-        "Word Press",
-        "UI Design",
-        "development of wood fire kilns"
-      ],
-      "tags": ["Word Press", "Graphic Design", "Web & Software Developer"],
-      "media": [],
-      "links": [{ "url": "https://kaolinandcoal.com", "title": "Website" }],
 
-      "type": ["Web Apps", "Website", "E Commerce"]
-    },
     {
       "date": "2019",
-      "name": "Art Net",
-      "client": "DeMaine",
-      "short": "Framework for netowrk driven interactives via web browsers",
-      "description": "ArtNet is a framework for making network driven interactives via web browser",
-      "technology": ["threeJS", "WebGL", "GLSL"],
-      "tags": ["GLSL", "public artwork", "graphics programming"],
-      "media": [""],
-      "links": [
-        {
-          "url": "http://tobiasdemaine.com/work/projects/bmap",
-          "title": "Project Overview"
-        },
-        { "url": "https://github.com/tobiasdemaine/bmap", "title": "Github" }
+      "name": "AR[t]",
+      "client": "De Maine",
+      "short": "Framework for network driven interactives via web browsers",
+      "description": "<p>AR[t]  is the back bone of our current digital interactive installation projects.  The projects currently take the form of digital mapped projections, connectivity to deep learning for mapped projections, interactivity with digital projections through the use of network devices (Arduino/Raspberry Pi computers, mobile phones, tablets etc) and interactive in device 2d and 3d Augment Reality.</p><p>AR[t]  distributes Augment Reality applications from one centralised scalable cloud server.</P><p>Base applications take the form of plugins that are run as instances. These instances can uniquely utilise users and roles. Each instance has its own settings delivered through a JSON settings file. For example an artwork application can have user log in to interact with each other or within a single instance of and artwork application.</p><p>The architecture of the cloud server has been developed with python3. Each instance is set up through a web based interface.</p>PLUGINS:<ul><li>Mapper, a projection mapping system that enable, GLSL shader, images, videos, video streams, 3d content and JavaScript programs to be displayed on the light mapping. Mapper is used in my projects bMap, We and custom event light mapping for festivals and cultural events.</li><li>arZone, a in device augmented reality system, for displaying augmented reality content at specific GPS locations. ARzone is used in projects Storm Surge Totems and Wreck Point AR</li><li>Zone, a system for displaying 2d content at given GPS point. A zone can be used for information on walk, festivals,arts trails cities where information can be access about specific places and times. For example Zone can be used to display who playing currently at a particular venue at music festival or to display information at import geological or flora at specific points along a national park walking trail.</li>",
+      "technology": [
+        "Python",
+        "Tensor Flow ",
+        "Dlib",
+        "OpenCV",
+        "OpenGL",
+        "Javascript",
+        "webGL"
       ],
-      "embed": [
+      "tags": [
+        "Full Stack",
+        "UI Design",
+        "Product Design",
+        "AR / VR",
+        "Interactives"
+      ],
+      "thumb": "/assets/img/works/thumb-artnet.jpg",
+      "head": "/assets/img/works/head-artnet.jpg",
+      "media": [
         {
-          "js": "https://github.com/tobiasdemaine/bmap/blob/master/template/static/js/bmap.js"
+          "file": "uNxOiGYRRYo",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2019/thumb.webp"
+        },
+        {
+          "file": "eZjzim3vo_E",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2021/mq1.jpg"
+        },
+        {
+          "file": "inIS_dENchE",
+          "description": "Luminous",
+          "type": "youtube",
+          "thumb": "/assets/img/works/luminous2021/mq2.jpg"
         }
       ],
-      "type": ["Digital Installation", "Web Apps"]
+      "links": [],
+
+      "type": ["Web Apps", "Augemented Reality", "Digital Installations"]
     },
     {
       "date": "2019",
       "name": "BMap",
       "client": "Livingstone Shire Council",
       "short": "Mapped projection public Artwork",
-      "description": "A mapped projection public artwork commissioned by the Livingstone Shire Council Smart Arts initiative in conjunction with Australian Federal Government.",
-      "technology": ["threeJS", "WebGL", "GLSL"],
-      "tags": ["GLSL", "public artwork", "graphics programming"],
-      "media": [""],
-      "links": [
-        {
-          "url": "http://tobiasdemaine.com/work/projects/bmap",
-          "title": "Project Overview"
-        },
-        { "url": "https://github.com/tobiasdemaine/bmap", "title": "Github" }
+      "description": "<p>BMap was commissioned by the Livingstone Shire Council Smart Arts initiative in conjunction with Australian Federal Government. BMap is both an artwork and a learning tool for graphics programming with the GLSL openGL shader language. Its purpose is both for eye candy and to inspire creative graphics programming.<p><p>Physical installation hardware : NEC 8000 lumen 4k Projector, Nvidia Sheild TV computer.</p><p>Physical installation Software : Javascript / WebGL / GLSL standalone / WebKit app running on modified Android 9.</p><p>The bMap installation projects GLSL fragment shaders as animations onto UVmapped vertex geometry referred to as surfaces. To program graphics for bMap knowledge of GLSL Language is required.</p><p>The bMap Scene has multiple surfaces that parallel the physical projection planes (the ground, the tree trunks and the tree foliage). Once Logged into bMap you are presented with the main Screen. It is broken into 4 layers. From the top : menu, surface builder & preview, your shaders & other people’s shaders.<p>",
+      "technology": [
+        "Python",
+        "Javascript",
+        "WebGL",
+        "GLSL",
+        "Bootstrap",
+        "Android 9"
       ],
-      "embed": [
+      "tags": [
+        "Full Stack",
+        "UI Design",
+        "Product Design",
+        "AR / VR",
+        "Interactives"
+      ],
+      "media": [
         {
-          "js": "https://github.com/tobiasdemaine/bmap/blob/master/template/static/js/bmap.js"
+          "file": "j0DDQbLY1Rw",
+          "description": "BMap",
+          "type": "youtube",
+          "thumb": "/assets/img/works/bmap/mq2.webp"
+        },
+        {
+          "file": "/assets/img/works/bmap/preview.png",
+          "description": "Preview",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/bmap/shaderCoder.png",
+          "description": "Shader Coder",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/bmap/mainScreen.png",
+          "description": "Adminstration",
+          "type": "image"
         }
       ],
-      "type": ["Digital Installation", "Web Apps"]
+      "links": [
+        {
+          "url": "https://github.com/tobiasdemaine/bmap",
+          "title": "Source Github"
+        }
+      ],
+      "thumb": "/assets/img/works/thumb-bmap.jpg",
+      "head": "/assets/img/works/head-bmap.jpg",
+      "type": ["Web Apps", "Augemented Reality", "Digital Installations"]
     },
     {
       "date": "2019",
       "name": "Wreck Point AR",
       "client": "Livingstone Shire Council",
-      "short": "Augmented Reality Web Application",
-      "description": "An educational interactive artwork designed and developed for the Livingstone Shire Placemaking.",
-      "technology": ["arZone plugin"],
-      "tags": ["Augmented Reality", "educational"],
-      "media": [""],
+      "short": "Augmented Reality educational interactive for the Livingstone Shire Council",
+      "description": "Wreck Point is an educational interactive,  designed and developed for the Livingstone Shire Placemaking. This Augmented Reality work at Wreck Point Lookout Yeppoon is designed to educate the public about the geography, the ship wreck Selina and the native turtle species that are viewable from the lookout. This project is built on top of my software AR[t] utilizing the arZone plugin.",
+      "technology": ["Python", "Javascript", "WebGL", "GLSL", "Web AR"],
+      "tags": ["Augmented Reality", "Web App", "iOS App", "AR / VR"],
+      "media": [
+        {
+          "file": "4Ahq6YqBMvs",
+          "description": "Lookout",
+          "type": "youtube",
+          "thumb": "/assets/img/works/wreckpoint/lookout.jpg"
+        },
+        {
+          "file": "R9qrqq9_RTM",
+          "description": "Selina Wreck",
+          "type": "youtube",
+          "thumb": "/assets/img/works/wreckpoint/selina.jpg"
+        },
+        {
+          "file": "YAz2YtSISP4",
+          "description": "Lower Deck",
+          "type": "youtube",
+          "thumb": "/assets/img/works/wreckpoint/lowerdeck.jpg"
+        }
+      ],
       "links": [],
-
+      "thumb": "/assets/img/works/thumb-wreckpoint.jpg",
+      "head": "/assets/img/works/head-wreckpoint.jpg",
       "type": ["Augemented Reality", "Web Apps"]
     },
     {
       "date": "2019",
       "name": "Storm Surge Totems",
       "client": "Livingstone Shire Council",
-      "short": "Augmented Reality Web Application",
-      "description": "An educational interactive artwork, designed and developed for the Livingstone Shire Council Disaster Center.",
-      "technology": ["arZone plugin"],
-      "tags": ["Augmented Reality", "educational"],
-      "media": [""],
+      "short": "Augmented Reality Web App for the Livingstone Shire Council",
+      "description": "An educational interactive work, designed and developed for the Livingstone Shire Council Disaster Center.",
+      "technology": ["Python", "Javascript", "WebGL", "GLSL", "Web AR"],
+      "tags": ["Augmented Reality", "Web App", "iOS App", "AR / VR"],
+      "media": [
+        {
+          "file": "hynRGXijmMk",
+          "description": "Storm Surge Totems",
+          "type": "youtube",
+          "thumb": "/assets/img/works/totems/mqdefault.jpg"
+        }
+      ],
       "links": [],
 
+      "thumb": "/assets/img/works/thumb-totems.jpg",
+      "head": "/assets/img/works/head-totems.jpg",
       "type": ["Augemented Reality", "Web Apps"]
     },
     {
       "date": "2018",
       "name": "PORTal",
       "client": "Rockhampton Regional Council",
-      "short": "Augmented Reality Artwork ",
-      "description": "An Augmented Reality geolocation driven audio work commissioned by the Rockhampton Regional Council.",
-      "technology": [],
-      "tags": ["Augmented Reality", "audio"],
-      "media": [""],
+      "short": "Augmented Reality Web App for the Rockhampton Regional Council",
+      "description": "An Augmented Reality geolocation driven audio work commissioned by the Rockhampton Regional Council for the Federal Governments Smart Arts initative. For permanent display oustide Customs House, Quay Street, Rockhampton.",
+      "technology": ["Javascript", "html5", "css"],
+      "tags": ["Full Stack", "AR / VR"],
       "links": [
-        { "url": "http://portal.rockhamptonartgallery.com.au", "title": "App" },
         { "url": "https://github.com/tobiasdemaine/PORTal", "title": "Github" }
       ],
-
-      "type": ["Augemented Reality", "Web Apps"]
+      "thumb": "/assets/img/works/thumb-portal.jpg",
+      "head": "/assets/img/works/head-portal.jpg",
+      "type": ["Augemented Reality", "Web Apps"],
+      "media": []
+    },
+    {
+      "date": "2017",
+      "name": "Kaolin and Coal",
+      "client": "Kaolin and Coal",
+      "short": "Website for Ceramic Studio",
+      "description": "E commerce website for small wood fired ceramics partnership",
+      "technology": ["Word Press", "Woo Commerce"],
+      "tags": [
+        "Website Development",
+        "UI Design",
+        "Graphic Design",
+        "html5",
+        "CSS",
+        "Javascript"
+      ],
+      "media": [
+        {
+          "file": "/assets/img/works/kc/screen1.jpg",
+          "description": "Preview",
+          "type": "image"
+        },
+        {
+          "file": "/assets/img/works/kc/screen2.jpg",
+          "description": "Preview",
+          "type": "image"
+        }
+      ],
+      "links": [{ "url": "https://kaolinandcoal.com", "title": "Website" }],
+      "thumb": "/assets/img/works/thumb-kc.jpg",
+      "head": "/assets/img/works/head-kc.jpg",
+      "type": ["Web Sites", "E Commerce"]
     },
     {
       "date": "2017",
       "name": "Simply One Question",
       "client": "Pebble Design",
       "short": "Self Improvement web app",
-      "description": "A self improvement web application with a Node.js Rest API backend and html5 frontend.",
+      "description": "Developed in conjuction with the Pebble Design Graphics and UI Team. A self improvement web application with a Node.js Rest API backend and html5 frontend.",
       "technology": ["html5", "CSS", "Javascript", "Nodejs", "MongoDB"],
-      "tags": ["web application", "self improvement"],
-      "media": [""],
-      "links": ["https://www.simplyonequestion.com/"],
-
+      "tags": ["Full Stack"],
+      "media": [],
+      "links": [
+        { "url": "https://www.simplyonequestion.com/", "title": "Website" }
+      ],
+      "thumb": "/assets/img/works/thumb-oneq.jpg",
+      "head": "/assets/img/works/head-oneq.jpg",
       "type": ["Web Apps"]
     },
     {
       "date": "2017",
-      "name": "Pebble Design",
-      "client": "Price Check",
+      "name": "Price Check",
+      "client": "Pebble Design",
       "short": "Hotel Booking Pricing tool plugin for exisiting website",
-      "description": "Development of a hotel booking site web crawling pricing tool",
-      "technology": ["Full Stack Developer/ Application Designer"],
+      "description": "Development of a hotel booking site pricing tool in conjuction with the pebble design UI team. ",
+      "technology": ["NodeJS", "Puppet", "Javascript", "html5", "CSS"],
+      "tags": ["Full Stack"],
       "location": "Noosa, Queensland, Australia",
-      "links": ["https://pebbledesign.com/price-check-loyalty-discount-tool"],
+      "links": [
+        {
+          "url": "https://pebbledesign.com/price-check-loyalty-discount-tool",
+          "title": "Website"
+        }
+      ],
       "media": [],
-
-      "type": ["Website Addon", "Web Apps"]
+      "thumb": "/assets/img/works/thumb-pdpt.jpg",
+      "head": "/assets/img/works/head.pddt.png",
+      "type": ["Web Apps"]
     },
     {
       "date": "2016",
-      "name": "Frontline Care Solutions",
-      "client": "A geriatrics care education organisation",
-      "short": "Web Site for Edu Org",
-      "description": "Implementation of E-learning systems, 2 word press website rebuilds and packaging of websites as Android and IOS applications using Cordova",
-      "technology": ["Full-stack Developer"],
+      "name": "Websites and Multimedia",
+      "client": "FrontLine Care Solutions",
+      "short": "A geriatrics care education organisation",
+      "description": "Implementation of E-learning systems, 2 word press website rebuilds and packaging of websites as Android and IOS applications using Cordova. Video Editing for course content.",
+      "technology": [
+        "Word Press",
+        "Moodle",
+        "Cordova",
+        "Javascript",
+        "html5",
+        "CSS",
+        "PHP",
+        "Final Cut"
+      ],
       "location": "Noosaville, Queensland, Australia",
-      "links": [],
+      "links": [
+        { "url": "https://www.frontlinecaresolutions.com/", "title": "Website" }
+      ],
       "media": [],
-
+      "tags": ["Front End", "UI Design", "Video Production", "Multimedia"],
+      "thumb": "/assets/img/works/thumb-fcs.jpg",
+      "head": "/assets/img/works/head-fcs.jpg",
       "type": ["Web Sites"]
     },
     {
       "date": "2014",
       "name": "Ozihub",
-      "short": "In Huse Web app for factory and business management",
-      "client": "In house business & factory job system with e commerce website integration for a signage and safety product business",
-      "description": "",
-      "technology": ["Full-stack Developer"],
+      "short": "In House Web app for factory and business management",
+      "client": "Ozihub",
+      "description": "A no frills in house business & factory job system with magento e commerce website integration for Ozihub a signage and safety product business located in Gladstone, Queensland.",
+      "technology": [
+        "PHP",
+        "IIS",
+        "Magento",
+        "MYSQL",
+        "Javascript",
+        "html5",
+        "css"
+      ],
+      "tags": ["Full Stack", "Product Design"],
       "location": "Gladstone, Queensland, Australia",
-      "links": [],
-      "media": [],
-
+      "links": [{ "url": "http://ozihub.com.au", "title": "website" }],
+      "media": [
+        {
+          "file": "jHSW4BewOJQ",
+          "description": "System walk through",
+          "type": "youtube",
+          "thumb": "/assets/img/works/ozihub/mqdefault.jpg"
+        }
+      ],
+      "thumb": "/assets/img/works/thumb-ozihub.png",
+      "head": "/assets/img/works/head-ozihub.jpg",
       "type": ["Web Apps"]
     },
     {
       "date": "2014",
       "name": "IMRG",
       "short": "Bespoke Content managment System",
+      "tags": ["Full Stack"],
       "client": "Bespoke PHP content management system",
-      "description": "LAMP stack application",
-      "technology": ["Full-stack Developer"],
+      "description": "Bespoke PHP content management system based on the LAMP stack for IMRG the UK's Ecommerce Community. Interface by splash creative.",
+      "technology": ["PHP", "MYSQL", "Javascript", "html5", "CSS"],
       "location": "London, England, United Kingdom",
-      "links": ["http://web.archive.org/web/20140407233541/http://imrg.org/"],
+      "links": [
+        {
+          "url": "http://web.archive.org/web/20140407233541/http://imrg.org/",
+          "title": "Website"
+        }
+      ],
       "media": [],
-
+      "thumb": "/assets/img/works/thumb-imrg.jpg",
+      "head": "/assets/img/works/head-imrg.png",
       "type": ["Web Sites"]
     },
 
@@ -379,36 +608,62 @@
       "client": "Spanish Tourism IOS Maganzine App",
       "short": "IOS APp for Spanish Tourism Magazine",
       "description": "",
+      "tags": [],
       "technology": ["Full-stack Developer", "IOS APP Developer"],
       "location": "London, England, United Kingdom",
       "links": [],
       "media": [],
 
-      "type": ["iOS Apps"]
+      "type": []
     },
     {
       "date": "2012",
       "name": "Skill for Kids",
 
-      "client": "Heavily customised Joomla based child development information system",
+      "client": "Sean Fyfe",
       "short": "Website for child development strategies",
-      "description": "",
-      "technology": ["Full-stack Developer"],
+      "description": "Modified Joomla CMS in conjuction with Hoopla Family Ad Agency. From in-depth articles to step-by-step videos, skillforkids.com can help you give your kids the best start in life.",
+      "technology": ["Joomla", "PHP", "Javascript", "html5", "Css"],
       "location": "Brisbane, Queensland, Australia",
-      "links": [],
+      "links": [
+        {
+          "url": "http://web.archive.org/web/20130414053533/http://www.skillforkids.com/",
+          "title": "website"
+        }
+      ],
       "media": [],
-
+      "tags": ["Full Stack"],
+      "thumb": "/assets/img/works/thumb-s4k.jpg",
+      "head": "/assets/img/works/head-s4k.jpg",
       "type": ["Web Sites"]
     },
     {
       "date": "March 2012",
-      "name": "Chanoff PTYLTD",
-      "client": "Chanoff PTYLTD",
+      "name": "End of day",
+      "client": "Chanoff PTY LTD",
+
       "short": "End of day share trading platform",
-      "description": "Full-stack Developer, Technical Analyst",
-      "technology": ["Technical analysis", "End of Day share trading platform"],
-      "tags": [],
-      "media": [],
+      "description": "An end of day trading platform with technical analysis  for Chanoff Pty Ltd. ",
+      "technology": [
+        "PHP",
+        "APACHE",
+        "MYSQL",
+        "JQUERY UI",
+        "Javascript",
+        "html5",
+        "css"
+      ],
+      "tags": ["Full Stack", "Product Design", "Technical Analyst"],
+      "thumb": "/assets/img/works/thumb-eod.jpg",
+      "head": "/assets/img/works/head-eod.jpg",
+      "media": [
+        {
+          "file": "ojdUNikThWY",
+          "description": "System walk through",
+          "type": "youtube",
+          "thumb": "/assets/img/works/eod/mqdefault.jpg"
+        }
+      ],
       "links": [],
 
       "type": ["Web Apps"]
@@ -426,7 +681,7 @@
         "https://web.archive.org/web/20100220142657/http://www.boatsticker.com.au/"
       ],
 
-      "type": ["Web Sites"]
+      "type": []
     },
     {
       "date": "December 2008",
@@ -488,7 +743,7 @@
       "media": [],
       "links": [],
 
-      "type": ["Web Apps"]
+      "type": []
     },
     {
       "date": "2004",
@@ -501,22 +756,26 @@
       "media": ["studio55.jpg"],
       "links": ["http://studio55.com"],
 
-      "type": ["Web Sites", "Flash App"]
+      "type": []
     },
     {
       "date": "2002",
       "name": "Gold Coast Exhibition Center",
-      "short": "WebSite",
+      "short": "WebSite and Flash Development",
       "client": "Jupiter Technologies",
       "description": "Web Developer for Gold Coast Exhibition Center Website",
-      "technology": ["Web Development"],
-      "tags": ["Website Development"],
-      "media": ["jupiter_tech.jpg"],
+      "technology": ["HTML", "CSS", "Javaacript", "Flash", "ActionScript"],
+      "tags": ["Web Design"],
+      "media": [],
       "links": [
-        "https://web.archive.org/web/20031003232635/http://www.gccec.com.au/"
+        {
+          "url": "https://web.archive.org/web/20031003232635/http://www.gccec.com.au/",
+          "title": "website"
+        }
       ],
-
-      "type": ["Web Sites", "Flash App"]
+      "thumb": "/assets/img/works/thumb-gccec.gif",
+      "head": "/assets/img/works/head-gc.png",
+      "type": ["Web Sites"]
     },
     {
       "date": "2002",
@@ -531,7 +790,7 @@
         "https://web.archive.org/web/20020925200611/http://unicomm.com.au/"
       ],
 
-      "type": ["Web Sites", "Flash App"]
+      "type": []
     },
     {
       "date": "2001",
@@ -544,7 +803,7 @@
       "media": ["networkers.jpg"],
       "links": ["http://networkers.com"],
 
-      "type": ["Web Sites", "Flash App"]
+      "type": []
     },
     {
       "date": "2000",
@@ -559,7 +818,7 @@
         "https://web.archive.org/web/20091015014007/http://unicomm.com.au/"
       ],
 
-      "type": ["Web Sites"]
+      "type": []
     }
   ]
 }

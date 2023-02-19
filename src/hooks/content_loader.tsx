@@ -35,7 +35,7 @@ export const ContentLoader = () => {
   const GetContentDataByTag = (tag: string) => {
     const data = [];
     for (var x in content.projects) {
-      if (content.projects[x].tags?.indexOf(tag) > -1) {
+      if (content.projects[x].tags?.indexOf(tag as never) > -1) {
         data.push(content.projects[x]);
       }
     }
@@ -53,8 +53,7 @@ export const ContentLoader = () => {
   const GetContentDataByType = (type: string) => {
     const data = [];
     for (var x in content.projects) {
-      console.log(content.projects[x]);
-      if (content.projects[x].type.indexOf(type) > -1) {
+      if (content.projects[x].type.indexOf(type as never) > -1) {
         data.push({ ...content.projects[x] });
       }
     }

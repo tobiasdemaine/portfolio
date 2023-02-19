@@ -14,7 +14,7 @@ const Display = () => {
   const [animate, setAnimate] = useState(styles.indexWrapDisplay);
   useEffect(() => {
     if (exitAnimate == true) {
-      setAnimate([styles.indexWrap, styles.animateOut].join(" "));
+      setAnimate([styles.indexWrapDisplay, styles.animateOut].join(" "));
     }
   }, [exitAnimate]);
   useEffect(() => {
@@ -26,7 +26,9 @@ const Display = () => {
           window.location.href
             .split("/")
             .pop()
-            ?.replaceAll("%20", " ") as string
+            ?.replaceAll("%20", " ")
+            .replace("%5B", "[")
+            .replace("%5D", "]") as string
         )
       );
     }

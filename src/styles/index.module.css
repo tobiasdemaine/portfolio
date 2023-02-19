@@ -1,11 +1,15 @@
 .indexWrap {
   background-image: url("/assets/img/background.png");
-  background-position: bottom left;
+  background-position: top calc(100vh - 648px) left;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: calc(100vh - 33px);
+
+  overflow-y: visible;
   opacity: 1;
+  top: 33px;
+  position: absolute;
 }
 
 .animateOut {
@@ -18,16 +22,20 @@
 .indexWrapDisplay {
   background-color: white;
   background-image: url("/assets/img/background.png");
-  background-position: bottom left;
+  background-position: top calc(100vh - 648px) left;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: auto;
-  top: -3000px;
+  background-attachment: fixed;
+
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -10;
+  margin-top: 10;
+  overflow-y: visible;
+
   opacity: 1;
-  animation: animateOpacity 1s;
   display: flex;
   flex-flow: column;
+  position: absolute;
 }
 
 @keyframes animateOpacity {

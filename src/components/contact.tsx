@@ -88,12 +88,18 @@ export const Contact = ({ content }: ContactProps) => {
               formData.append("message", message.current.value);
               // do the ajax
               axios
-                .post(process.env.EMAILSRV as string, formData)
+                .post("/api/contact", {
+                  name: name.current.value,
+                  email: email.current.value,
+                  phone: phone.current.value,
+                  message: message.current.value,
+                })
                 .then(() => {
                   setToggle(styles.hide);
                   setToggleThankyou(styles.thankyou);
                 })
-                .catch(() => {
+                .catch((e: any) => {
+                  console.log(e);
                   setToggle(styles.hide);
                   setError(true);
                 });

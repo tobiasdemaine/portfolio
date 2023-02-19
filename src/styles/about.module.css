@@ -1,5 +1,4 @@
 .contentWrap {
-  margin-top: 30px;
   font-family: var(--font-main);
   text-align: center;
   vertical-align: middle;
@@ -9,7 +8,6 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 5px;
 }
 
 .title {
@@ -24,6 +22,7 @@
   text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
   width: 100%;
   transition: all linear 200ms;
+  background: linear-gradient(-180.1deg, #1003328a, #23d5ab00);
 }
 
 .description {

@@ -14,7 +14,7 @@ export const Main = ({ content }: mainProps) => {
     styles.blur_li,
     styles.blur_li,
   ]);
-  const [titleShow, setTitleShow] = useState<any>(styles.hide_li);
+  const [titleShow, setTitleShow] = useState<any>(styles.blur_li);
   useEffect(() => {
     setTitleShow({});
     setLiShow({});
